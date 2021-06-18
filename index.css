@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  width: 100%;
 }
 .container_section {
   padding: 30px;
@@ -48,6 +49,8 @@ nav > span {
   height: 300px;
   width: 350px;
   background-size: cover;
+  position: relative;
+  right: 20px;
 }
 
 #header_content p {
@@ -149,12 +152,13 @@ nav > span {
     padding: 80px;
   }
   article {
-    max-width: 900px;
+    max-width: 1300px;
   }
 
   #img {
     width: 450px;
     height: 400px;
+    right: 0px;
   }
 
   #header_content p {
