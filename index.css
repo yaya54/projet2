@@ -17,6 +17,10 @@ nav {
   padding: 10px;
 }
 
+footer {
+  padding: 10px 30px;
+  border-top: 2px solid rgb(214, 212, 212);
+}
 .active {
   font-weight: bold;
 }
@@ -59,7 +63,7 @@ nav > span {
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
-  border-style: inset;
+  box-shadow: 2px 2px 7px 2px grey;
   border-width: 2px;
 }
 
